@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Diamond-login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile-pic"></div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="About us.html">About Us</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <p>Join us in making a difference</p>
+            </footer>
+        </div>
+        <div class="main-content">
+            <h1>Welcome</h1>
+            <form id="loginForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <div class="buttons">
+                    <button type="submit">Login</button>
+                    <button type="button"><a href="Diamond-create account.html">Create Account</button>
+                </div>
+                <a href="#" class="forgot-password">Forgot Password</a>
+            </form>
+        </div>
+    </div>
+    <script src="Diamond-login.js"></script>
+</body>
+</html>

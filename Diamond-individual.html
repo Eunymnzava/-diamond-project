@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="Diamond-individual.css">
+</head>
+<body>
+    <div class="container">
+        <h2>For individual donation click here</h2>
+        <button class="button" id="individualBtn"><a href="Diamond-finishing.html">INDIVIDUAL</a></button>
+
+        <h2>For group donation fill here</h2>
+        <form id="groupForm">
+            <input type="text" id="groupName" placeholder="Name of group/organization">
+
+            <div id="membersContainer">
+                <input type="text" class="member" placeholder="Fill members with their registration number">
+            </div>
+
+            <button type="button" id="addMemberBtn">+</button>
+
+            <input type="text" id="plan" placeholder="PLAN.....">
+            <input type="number" id="amount" placeholder="Amount">
+            <textarea id="donationMessage" placeholder="CREATE YOUR DONATION MESSAGE HERE"></textarea>
+
+            <button type="submit">SAVE AND SUBMIT</button>
+        </form>
+    </div>
+        <p>Together we can achieve more</p>
+
+    <script src="Diamond-individual.js"></script>
+</body>
+</html>

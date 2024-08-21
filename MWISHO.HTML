@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="mwisho.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <p class="menu-item"><a href="#"> H I S T O R Y</a></p>
+            <p class="menu-item"><a href="Diamond-finishing.html">CHANGE PLAN</a></p>
+            <p class="footer-text">one click, one good deed</p>
+        </div>
+        <div class="main-content">
+            <form id="donationForm">
+                <label for="message">PLEASE WRITE YOUR DONATION MESSAGE HERE</label>
+                <textarea id="message" name="message" placeholder="Type..." required></textarea>
+                
+                <label for="payment-method">SELECT PAYMENT METHOD</label>
+                <div id="payment-method">
+                    <select type="text" id="idType" name="idType" required>
+                        <option value="mobile phone">MOBILE PHONE</option>
+                        <option value="bank">BANK</option>
+                    </select>
+                </div>
+
+                <p id="confirm-text">PLEASE CONFIRM PAYMENT ON YOUR PHONE</p>
+
+                <button type="submit" id="confirm-button">CONFIRM</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

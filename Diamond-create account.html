@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Diamond-create account.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Register here</h1>
+            <form id="registerForm">
+                <label for="nationality">Nationality</label>
+                <select type="text" id="nationality" name="nationality" required>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Sudan">Sudan</option>
+                    <option value="Congo DR">Congo DR</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Zambia">Zambia</option>
+                </select>
+                     
+
+                <label for="idType">ID type</label>
+                <select type="text" id="idType" name="idType" required>
+                    <option value="NIDA">NIDA</option>
+                    <option value="VOTER'S ID">VOTER'S ID</option>
+                    <option value="PASSPORT">PASSPORT</option>
+                    <option value="DRIVING LICENCE">DRIVING LICENCE</option>
+                </select>
+                <label for="idNumber">ID number</label>
+                <input type="text" id="idNumber" name="idNumber" required>
+
+                <label for="phoneNumber">Phone number</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" required>
+
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" required>
+
+                <button id="Register" type="submit">REGISTER</button>
+                <!-- <button type="button"><a href="Diamond-finish.html"></a>REGISTER</button> -->
+            </form>
+            <p class="note">Receive confirmation code via your phone</p>
+        </div>
+    </div>
+        <p>Your support brings hope</p>
+    <script src="Diamond-create account.js"></script>
+</body>
+</html>

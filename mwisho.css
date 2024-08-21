@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url(download\ \(1\).jpeg);
+
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #3C6E71;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-text {
+    margin-top: auto;
+    font-size: 14px;
+}
+
+.main-content {
+    width: 70%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+textarea {
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#payment-method {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.payment-option {
+    background-color: #3C6E71;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.payment-option:hover {
+    background-color: #50d0c6;
+    color: white;
+}
+
+#confirm-text {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#confirm-button {
+    background-color: #3C6E71;
+    color: whitesmoke;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#confirm-button:hover {
+    background-color: #50d0c6;
+    color: white;
+}
+
+select{
+    color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #3C6E71;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
